@@ -75,17 +75,61 @@ h1#banner-logo {
 	text-indent: -9000px;
 	background: url('datetracks_launch.png') top no-repeat;
 	}
+
 	
-#nav {
+#display {
 	display: block;
 	border-top: 2px;
 	border-style: solid;
 	border-color: #141414;
 	background-color: #2D2D2D;
-	background: url('datetracks_back2.jpg') top no-repeat;
+	background: url('datetracks_back_cut.jpg');
 	height: 600px;
 	width: auto;
 	}
+
+#fb_box {
+	width:500px;
+	height: 340px;
+	margin:80px auto 0;
+	text-align:center;
+	padding:15px;
+	border:5px solid #FFFFFF;
+	background-color: rgba(255,255,255,.9);
+
+	h1#name-logo {
+		width: 100%;
+		height: 115px;
+		margin: 20px auto 0;
+		font-family: Helvetica, sans-serif;
+		font-size: 74px;
+		color: #57CAFF;
+		line-height: 100px;
+		text-indent: -9000px;
+		background: url('datetracks_logo.png') top no-repeat;
+	}}
+		
+#fb_box h2 {
+	text-align: center;
+	color: #333;
+	font-family: helvetica-neue, sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	color: #000000;
+	line-height: 30px;
+	}
+		
+#fb_box p {
+	text-align: center;
+	color: #333;
+	padding-top: 10px;
+	font-family: helvetica-neue, sans-serif;
+	font-size: 22px;
+	font-weight: 100;
+	color: #000000;
+	line-height: 24px;
+	}
+
 	
 #media-block {
 	display: block;
@@ -113,6 +157,7 @@ footer {
 	border-top: 2px;
 	border-style: solid;
 	border-color: #141414;
+	background-color: none;
 	background-image: url('footer_back.jpg');
 	height: 200px;
 	
@@ -131,13 +176,56 @@ footer {
 		
 	
 	a#codeacademy {background-position: 0 0;}
-	a:hover#codeacademy {background-position: 0 -50px;}
+	a:hover#codeacademy {
+		background-position: 0 -50px;
+		background-color: none;}
 	a#builtinchicago {background-position: 50px 0;}
-	a:hover#builtinchicago {background-position: 50px -50px;}
+	a:hover#builtinchicago {
+		background-position: 50px -50px;
+		background-color: none;}
 	a#twitter {background-position: 100px 0;}
-	a:hover#twitter {background-position: 100px -50px;}
+	a:hover#twitter {
+		background-position: 100px -50px;
+		background-color: none;}
 	
 	#corp_id {
 	text-align: center;}
+	
+	
+.classname {
+		-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+		-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+		box-shadow:inset 0px 1px 0px 0px #bee2f9;
+		background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #63b8ee), color-stop(1, #468ccf) );
+		background:-moz-linear-gradient( center top, #63b8ee 5%, #468ccf 100% );
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#63b8ee', endColorstr='#468ccf');
+		background-color:#63b8ee;
+		-moz-border-radius:8px;
+		-webkit-border-radius:8px;
+		border-radius:8px;
+		border:3px solid #3866a3;
+		display:inline-block;
+		color:#14396a;
+		font-family:arial;
+		font-size:24px;
+		font-weight:bold;
+		padding:6px 24px;
+		text-decoration:none;
+		text-shadow:0px 1px 0px #7cacde;
+	}
+.classname:hover {
+		background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #468ccf), color-stop(1, #63b8ee) );
+		background:-moz-linear-gradient( center top, #468ccf 5%, #63b8ee 100% );
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#468ccf', endColorstr='#63b8ee');
+		background-color:#468ccf;
+	}
+.classname:active {
+		position:relative;
+		top:1px;
+	}
+	
+	
+	
+	
 	
 	
