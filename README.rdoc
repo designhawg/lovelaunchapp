@@ -1,3 +1,13 @@
+I will need to get this into the main page and functioning before demo day starts tomorrow night!!!
+
+<%= link_to "Sign in with Facebook", "/auth/facebook" %>
+
+When we get to the point where we are ready to yield, we'll want this...
+<%= yield %>
+
+
+
+
 == Welcome to Rails
 
 Rails is a web-application framework that includes everything needed to create

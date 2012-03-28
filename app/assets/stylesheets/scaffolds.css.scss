@@ -1,5 +1,6 @@
 body {
   background-color: #fff;
+  background-image: url('footer_back.jpg');
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
@@ -58,35 +59,85 @@ div {
 #banner {
 	display: block;
 	border: 0;
-	background-image: url('nav_back4.png');
+	background-image: url('nav_back5.png');
 	height: 90px;
 	width: auto;
 	}
 	
 h1#banner-logo {
 	width: 320px;
-	height: 90px;
-	margin:0px auto;
+	height: 100px;
+	margin: 0 auto;
 	font-family: Helvetica, sans-serif;
 	font-size: 74px;
 	color: #57CAFF;
-	line-height: 90px;
+	line-height: 100px;
 	text-indent: -9000px;
 	background: url('datetracks_launch.png') top no-repeat;
 	}
 	
 #nav {
 	display: block;
-	border-top: 4px;
+	border-top: 2px;
 	border-style: solid;
-	border-color: #000000;
-	background-color: red;
-	height: 40px;
+	border-color: #141414;
+	background-color: #2D2D2D;
+	background: url('datetracks_back2.jpg') top no-repeat;
+	height: 600px;
 	width: auto;
 	}
 	
+#media-block {
+	display: block;
+	border-top: 2px;
+	border-style: solid;
+	border-color: #141414;
+	background-color: #414042;
+	background-image: url('nav_back6.png');
+	height: 100px;
+	width: auto;
+	}
+		
+h2	{
+	margin-top: 20px;
+	text-align: center;
+	color: #333;
+	font-family: helvetica-neue, sans-serif;
+	font-size: 28px;
+	font-weight: 100;
+	color: #FFFFFF;
+	line-height: 30px;
+	}
 	
+footer {
+	border-top: 2px;
+	border-style: solid;
+	border-color: #141414;
+	background-image: url('footer_back.jpg');
+	height: 200px;
 	
+	ul#social {
+	width: 210px;
+	margin: 0 auto;
+	}
 	
+	a { background: url(social_sprite.png);
+	margin: 20px 10px 10px 10px;
+	text-indent: -9000px;
+	width: 50px;
+	height: 50px;
+	float: left;
+	}}
+		
+	
+	a#codeacademy {background-position: 0 0;}
+	a:hover#codeacademy {background-position: 0 -50px;}
+	a#builtinchicago {background-position: 50px 0;}
+	a:hover#builtinchicago {background-position: 50px -50px;}
+	a#twitter {background-position: 100px 0;}
+	a:hover#twitter {background-position: 100px -50px;}
+	
+	#corp_id {
+	text-align: center;}
 	
 	
