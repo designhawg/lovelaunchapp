@@ -162,7 +162,7 @@ footer {
 	height: 200px;
 	
 	ul#social {
-	width: 210px;
+	width: 280px;
 	margin: 0 auto;
 	}
 	
@@ -179,39 +179,44 @@ footer {
 	a:hover#codeacademy {
 		background-position: 0 -50px;
 		background-color: none;}
-	a#builtinchicago {background-position: 50px 0;}
+	a#builtinchicago {background-position: 150px 0;}
 	a:hover#builtinchicago {
-		background-position: 50px -50px;
+		background-position: 150px -50px;
 		background-color: none;}
 	a#twitter {background-position: 100px 0;}
 	a:hover#twitter {
 		background-position: 100px -50px;
 		background-color: none;}
+	a#email {background-position: 50px 0;}
+	a:hover#email {
+		background-position: 50px -50px;
+		background-color: none;}
+	
 	
 	#corp_id {
 	text-align: center;}
 	
 	
 .classname {
-		-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
-		-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
-		box-shadow:inset 0px 1px 0px 0px #bee2f9;
-		background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #63b8ee), color-stop(1, #468ccf) );
-		background:-moz-linear-gradient( center top, #63b8ee 5%, #468ccf 100% );
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #63b8ee), color-stop(1, #468ccf) );
+	background:-moz-linear-gradient( center top, #63b8ee 5%, #468ccf 100% );
 		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#63b8ee', endColorstr='#468ccf');
-		background-color:#63b8ee;
-		-moz-border-radius:8px;
-		-webkit-border-radius:8px;
-		border-radius:8px;
-		border:3px solid #3866a3;
-		display:inline-block;
-		color:#14396a;
-		font-family:arial;
-		font-size:24px;
-		font-weight:bold;
-		padding:6px 24px;
-		text-decoration:none;
-		text-shadow:0px 1px 0px #7cacde;
+	background-color:#63b8ee;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:3px solid #3866a3;
+	display:inline-block;
+	color:#14396a;
+	font-family:arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #7cacde;
 	}
 .classname:hover {
 		background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #468ccf), color-stop(1, #63b8ee) );
